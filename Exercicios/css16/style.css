@@ -1,0 +1,35 @@
+@charset "UTF - 8";
+ 
+p{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    text-align: justify;
+}
+body {
+    background-image: linear-gradient(to right/*to right - direita / to top - topo / to left para esquerda / to bottom - para baixo */,  #20BD00 , #ebebeb 33%, #7EE675);
+}
+main{
+
+    background-color: white; /*DEFINE A COR DE FUNDO*/
+    width: 600px;/* WIDTH DEFINE A LARGURA*/
+    padding: 10px; /*DEFINE UM ESPAÇO DE SOBRA DA BORDA*/
+    margin: auto;/*CENTRALIZA NO MEIO DA TELA*/
+    border-radius: 20px; /*ARREDONDA OS CANTOS/BORDAS */
+    box-shadow: 5px 5px 20px rgba(87, 87, 231, 0.582); /* >FUNCIONA NA !!BOX!! INTEIRA< PRIMEIRO PARAMETRO DEFINE A SOMBRA PARA O LADO O SEGUNDO PARA BAIXO O TERCEIRO QUANTO ELA VAI SE ESPALHAR E O ULTIMO É A COR*/
+     
+
+}
+
+h1{
+
+    text-align: center; /*ALINHA NO CENTRO*/
+    color: blue;/*DEFINE A COR*/
+    text-shadow: 1px 1px 2px rgba(0, 0, 99, 0.87);/* >FUNCIONA NO !!TEXTO!! INTEIRO< PRIMEIRO PARAMETRO DEFINE A SOMBRA PARA O LADO O SEGUNDO PARA BAIXO O TERCEIRO QUANTO ELA VAI SE ESPALHAR E O ULTIMO É A COR*/
+}
+
+h2{
+    color: rgb(129, 129, 34) ;
+}

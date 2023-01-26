@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            background-color: dimgray;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 2px 2px 6px 0px black;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;/*DEFINE UMA BORDA "ARREDONDADA" OU PERSONALIZADA*/
+        }
+
+        article{
+            background-color: rgb(121, 119, 117);
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(92, 92, 92);
+            text-align: center;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            padding: 0px;
+            margin: 0px;
+            text-align: center;
+        }
+
+        footer > P{
+            margin: 0px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>My site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+
+        <section id="assunto">
+
+        </section>
+
+        <section id="noticia">
+            <article>
+                <h2>Posse do presidente</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ducimus incidunt nemo provident modi repellat corrupti quam eius nam eum, ex inventore architecto fugiat consectetur officiis quidem laudantium veniam minima.</p>
+                <aside>
+                    <h2>Escrito por Elfo</h2>
+                </aside>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <h1>I'm Developer</h1>
+    </footer>
+
+</body>
+</html>

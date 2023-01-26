@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixa</title>
+    <style>
+        h1{
+            background-color: beige;
+            height: 300px;
+            width: 300px;
+
+            border-width: 20px;
+            border-style: solid;
+            border-color: aquamarine;
+
+            outline: 20px dashed crimson;
+
+            border: 20px solid aquamarine;/*SIMPLIFICA O BORDER, !!TEM QUE PASSAR O VALORES NA ORDEM = WIDTH - STYLE - COLOR!! */
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            padding: 10px; /*SIMPLIFICA O PADDING, !!TEM QUE PASSAR OS VALORES NA ORDEM = TOP - RIGHT - BOTTOM - LEFT OU SOMENTE UM SE FOR TODOS IGUAIS OU DOIS PARAMETROS O PRIMEIRO É TOP AND BOTTOM E O SEGUNDO LEFT AND RIGHT!!/////PODE COLOCAR AUTO TAMBEM*/
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+            margin: 10px auto 40px auto; /*SIMPLIFICA O MARGIN, !!TEM QUE PASSAR OS VALORES NA ORDEM = TOP - RIGHT - BOTTOM - LEFT OU SOMENTE UM SE FOR TODOS IGUAIS OU DOIS PARAMETROS O PRIMEIRO É TOP AND BOTTOM E O SEGUNDO LEFT AND RIGHT ////// PODE COLOCAR AUTO TAMBEM!!*/
+
+        }
+        a{
+            border-width: 10px;
+            border-color: blueviolet;
+            border-style: solid;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box level</h1>
+    <p>Paragrafos tambem são caixas, mas os <a href="#">links são exemplo de inline-level</a> Vamos ver como é</p>
+</body>
+</html>

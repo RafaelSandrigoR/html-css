@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body{
+background-color: aquamarine;
+font-family: Arial, Helvetica, sans-serif;
+}
+/*
+
+ID É PARA SOMENTE UM ELEMENTO E CLASS É PARA VARIOS
+
+*/
+h1{
+color: rgb(255, 0, 0);
+}
+#principal{ /*ESSE "#principal É O ID DO H1 NO QUAL QUERO MODIFICAR"*/
+background-color: darkgreen;
+color: white;
+text-shadow: 5px 5px 2px blue;
+}
+h2{
+color: blue;
+}
